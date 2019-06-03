@@ -12,7 +12,6 @@ import { fetchAvatars } from '../actions/AvatarActions';
 //were calling the components here and then AllAvatars is called in App, which is passed the store(global state)
 
 class AllAvatars extends PureComponent {
-  //why is this called fetchCharacters or in my case fetchAvatars
   //if were calling everything in here, where does state get updated and how then does this.props.avatars have the list we need  
   static propTypes = {
     fetch: PropTypes.func.isRequired,

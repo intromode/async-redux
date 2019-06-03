@@ -5,4 +5,4 @@ export default combineReducers({
   avatars
 });
 
-//honestly still dont know exactly what combineReducers does look it up
+//how does combine reducers work behind the scenes

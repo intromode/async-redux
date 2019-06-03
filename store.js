@@ -8,7 +8,8 @@ import combineReducer from './src/reducers';
 //thunk middleware sees that the action in the reducer is a function that pings the API and only dispatches once the fetch is finished. 
 
 //so state is held in the reducer. reducer takes that state and an action and updates the state with the action. 
-//the store uses that reducer?? not sure what the difference between state and store is or why its a thing
+
+//the store uses that reducer?? store is then passed in index.js to provider so that it can be access by all components encompassed by provider
 
 export default createStore(
   combineReducer,
